@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Jugador jugador1 = new Jugador("Alam", 'X', ConsoleColor.Blue);
+
+            Console.WriteLine(jugador1);
         }
     }
 }
